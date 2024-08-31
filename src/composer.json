@@ -1,0 +1,14 @@
+{
+    "require": {
+        "telegram-bot/api": "^2.5",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Db\\": "db/",
+            "CreateUser\\": "db/",
+            "Models\\": "Models/",
+            "Services\\": "Services/"
+        }
+    }
+}
