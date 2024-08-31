@@ -76,8 +76,6 @@ services:
         - UID=${UID:-1000}
         - GID=${GID:-1000}
     entrypoint: [ 'php', '/var/www/html/']
-    command:
-      - 'php seeder.php'
     depends_on:
       - postgres
     volumes:
